@@ -6,12 +6,6 @@ import deep_nilmtk.data.loader.pytorch as TorchLoader
 
 
 __models__ = {
-    'tensorflow': {
-        'Seq2Pointbaseline':{
-            'model': KerasModels.Seq2Point,
-            'loader':None
-        }
-    },
     'pytorch':{
             # =============================================================================
             #     Baseline models from nilmtk-contrib in pytorch
