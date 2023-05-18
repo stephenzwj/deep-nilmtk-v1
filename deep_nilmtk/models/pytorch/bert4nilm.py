@@ -432,17 +432,15 @@ class BERT4NILM(nn.Module):
         return results
 
     @staticmethod
-    def get_template(self):
+    def get_template():
         return {
             'backend': 'pytorch',
             # 'in_size': sequence_length,
             'out_size': 1,
             'feature_type': 'mains',
-            'loader_class': 'z-norm',
             'target_norm': 'z-norm',
             'seq_type': 'seq2point',
             'learning_rate': 10e-5,
-            'point_position': 'mid_position'
-            
+            'model_name':'BERT4NILM'
         }
 

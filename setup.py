@@ -21,7 +21,3 @@ setup(name="deep_nilmtk",
       description="deep_nilmtk",
       install_requires= required,
       zip_safe=False)
-
-
-
-
